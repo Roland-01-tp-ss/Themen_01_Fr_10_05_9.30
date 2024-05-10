@@ -23,10 +23,26 @@ console.log("------------------");
 // entweder JA oder nix ... alternativlos
 // Türsteher-Politik (Doors 10 p.m.)
 
-// if (false) // fake it!
-// if (isJohnOlder) // Verweis auf ein Testergebnis
-// if(ageJohn > ageMark) // Test
+// // if (false) // fake it!
+// // if (isJohnOlder) // Verweis auf ein Testergebnis
+// // if(ageJohn > ageMark) // Test
 
-{ // codeblock
+// { // codeblock
+    // console.log("John ist älter!");
+// }
+
+/************ IF - ELSE ************/
+// mit Alternative
+// entweder ja oder nein
+
+if (ageJohn > ageMark) 
+{ // ja-zweig
     console.log("John ist älter!");
+} 
+else 
+{ // nein-zweig alternative-zweig
+    console.log("John ist jünger!");
 }
+
+
+
