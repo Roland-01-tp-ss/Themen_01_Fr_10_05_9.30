@@ -2,7 +2,7 @@
 
 // Deklaration + Assignment
 const ageJohn = 30;
-const ageMark = 25;
+const ageMark = 40;
 
 // Deklaration
 let isJohnOlder, isJohnEqual;
@@ -35,14 +35,32 @@ console.log("------------------");
 // mit Alternative
 // entweder ja oder nein
 
-if (ageJohn > ageMark) 
-{ // ja-zweig
-    console.log("John ist älter!");
-} 
+// if (ageJohn > ageMark) 
+// { // ja-zweig
+//     console.log("John ist älter!");
+// } 
+// else 
+// { // nein-zweig alternative-zweig
+//     console.log("John ist jünger!");
+// }
+
+
+
+/************ IF - ELSE IF  ************/
+// mit alternativen Fällen (älter, jünger, gleich alt)
+
+if (isJohnOlder) 
+    { // ja-zweig
+        console.log("John ist älter!");
+    } 
+    else if (isJohnEqual)
+    { // nein-zweig alternative-zweig
+        console.log("John ist gleich alter!");
+    }
 else 
-{ // nein-zweig alternative-zweig
-    console.log("John ist jünger!");
-}
+    { // nein-zweig alternative-zweig
+        console.log("John ist jünger!");
+    }
 
-
+    
 
